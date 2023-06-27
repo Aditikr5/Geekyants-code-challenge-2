@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Please Enter Your Bank Account");
         emp1.setBankAccount(sc.next());
         System.out.println("Please Enter Your Bank Account Number");
-        emp1.setAccountNo(sc.nextDouble());
+        emp1.setAccountNo(sc.nextLong());
         System.out.println("Please Enter Your IFSC");
         emp1.setIfsc(sc.next());
         System.out.println("Please Enter Your Bank Name");
@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Please Enter Your Bank Account");
         emp2.setBankAccount(sc.next());
         System.out.println("Please Enter Your Bank Account Number");
-        emp2.setAccountNo(sc.nextDouble());
+        emp2.setAccountNo(sc.nextLong());
         System.out.println("Please Enter Your IFSC");
         emp2.setIfsc(sc.next());
         System.out.println("Please Enter Your Bank Name");
