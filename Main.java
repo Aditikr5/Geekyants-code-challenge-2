@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        try{
         Scanner sc = new Scanner(System.in);
 
         /////////PERSON/////////////////////
@@ -61,6 +62,13 @@ public class Main {
         System.out.println("Please Enter Your Client Address");
         emp1.setClientCompanyAddress(sc.next());
         emp2.showEmployeeDetails();
+
+        //close the scanner at last
+        sc.close();
+    }catch(Exception e){
+        System.out.println("Exception Occured: "+e);
+        return ;
+    }
     }
     
 }
