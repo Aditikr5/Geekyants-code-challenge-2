@@ -1,6 +1,6 @@
 public class Employee extends Person{
     public String bankAccount;
-    public double accountNo;
+    public long accountNo;
     public String ifsc;
     public String bankName;
    
@@ -16,11 +16,11 @@ public class Employee extends Person{
         return bankAccount;
     }
     
-    public void setAccountNo(double accountNo) {
+    public void setAccountNo(long accountNo) {
         this.accountNo = accountNo;
     }
     
-    public double getAccountNo() {
+    public long getAccountNo() {
         return accountNo;
     }
     
